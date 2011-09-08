@@ -1,0 +1,7 @@
+Author: Juan Pinilla
+Exampe files to help mouting Web-Library server.
+
+It includes:
+- Apache config
+- Bind (DNS) config
+- Basic iptables

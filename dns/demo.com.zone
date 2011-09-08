@@ -1,0 +1,20 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+demo.com	IN SOA	hydra.demo.com. root.demo.com. (
+				1          ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+demo.com.	NS	hydra.
+demo.com.	MX  	10 demo.com.
+demo.com.	A	192.168.1.34
+
+$ORIGIN demo.com.
+ftp			CNAME	demo.com.
+mail			CNAME	demo.com.
+proxy			CNAME	demo.com.
+smtp			CNAME	demo.com
+www			CNAME	demo.com.
+s			CNAME	demo.com.
