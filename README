@@ -5,3 +5,4 @@ It includes:
 - Apache config
 - Bind (DNS) config
 - Basic iptables
+- Example selinux config
