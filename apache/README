@@ -1,0 +1,3 @@
+Modified:
+- ServerName (uncommented), line: 276
+- Added two VirtualHost (end of config file), lines 1003-last
